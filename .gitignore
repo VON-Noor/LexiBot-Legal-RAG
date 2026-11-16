@@ -1,0 +1,32 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# IDE files
+.vscode/
+.idea/
+
+# Local agent configuration
+.agents/
+
+# Local reports and PDFs
+*.pdf
+*.docx
+
+# Temporary files
+*.log
+.DS_Store
